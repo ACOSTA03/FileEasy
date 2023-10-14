@@ -9,7 +9,7 @@ Para usar FileEasy en tu proyecto Java, sigue estos pasos:
 
 1. **Descarga y Agrega FileEasy a tu Proyecto:**
 
-    Puedes descargar la última versión de FileEasy desde [enlace_de_descarga](https://github.com/057b6210-b9b0-437b-8609-f39287592ff0). Luego, agrega la biblioteca JAR a tu proyecto.
+    Puedes descargar la última versión de FileEasy desde [enlace_de_descarga]([https://github.com/057b6210-b9b0-437b-8609-f39287592ff0](https://github.com/ACOSTA03/FileEasy/blob/main/FileEasy.jar)). Luego, agrega la biblioteca JAR a tu proyecto.
 
 2. **Importa la Clase `fileEasy` en tu Código:**
 
