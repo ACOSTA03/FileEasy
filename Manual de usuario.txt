@@ -1,0 +1,59 @@
+Manual de Usuario de FileEasy
+
+FileEasy es una librería Java que facilita la manipulación de archivos. Proporciona operaciones para copiar, leer, escribir, crear, mover y eliminar archivos de manera sencilla. A continuación, se describe cómo utilizar cada una de las funciones disponibles en la librería.
+
+1. Copiar un Archivo
+
+La función copiarArchivo permite copiar un archivo desde la ubicación de origen a la ubicación de destino. Para utilizar esta función, sigue estos pasos:
+
+fileEasy copiador = new fileEasy();
+copiador.copiarArchivo("nombreOrigen.txt", "nombreDestino.txt");
+
+Reemplaza "nombreOrigen.txt" por la ruta y nombre del archivo de origen y "nombreDestino.txt" por la ruta y nombre del archivo de destino. Esta función copiará el archivo de origen al destino.
+
+2. Leer el Contenido de un Archivo
+
+La función leerArchivo te permite leer el contenido de un archivo y obtenerlo como una cadena de caracteres. Sigue estos pasos:
+
+fileEasy lector = new fileEasy();
+String contenido = lector.leerArchivo("nombreArchivo.txt");
+
+Reemplaza "nombreArchivo.txt" por la ruta y nombre del archivo que deseas leer. La función devolverá el contenido del archivo como una cadena de caracteres.
+
+3. Escribir en un Archivo
+
+Puedes utilizar la función escribirArchivo para escribir contenido en un archivo. A continuación, se muestra cómo hacerlo:
+
+fileEasy escritor = new fileEasy();
+escritor.escribirArchivo("nombreArchivo.txt", "Contenido a escribir en el archivo.");
+
+Reemplaza "nombreArchivo.txt" por la ruta y nombre del archivo en el que deseas escribir y "Contenido a escribir en el archivo." por el texto que deseas agregar al archivo. Esta función editará el archivo con el contenido especificado.
+
+4. Crear un Nuevo Archivo
+
+La función crearArchivo te permite crear un nuevo archivo. Sigue estos pasos:
+
+fileEasy creador = new fileEasy();
+creador.crearArchivo("nuevoArchivo.txt");
+
+Reemplaza "nuevoArchivo.txt" por la ruta y nombre del nuevo archivo que deseas crear. Esta función generará un archivo vacío con el nombre especificado.
+
+5. Eliminar un Archivo
+
+La función eliminarArchivo se utiliza para eliminar un archivo. Sigue estos pasos:
+
+fileEasy eliminador = new fileEasy();
+eliminador.eliminarArchivo("archivoAEliminar.txt");
+
+Reemplaza "archivoAEliminar.txt" por la ruta y nombre del archivo que deseas eliminar. Esta función borrará el archivo si existe.
+
+6. Mover un Archivo
+
+Puedes utilizar la función moverArchivo para trasladar un archivo desde una ubicación de origen a una ubicación de destino. Sigue estos pasos:
+
+fileEasy movilizador = new fileEasy();
+movilizador.moverArchivo("nombreOrigen.txt", "nombreDestino.txt");
+
+Reemplaza "nombreOrigen.txt" por la ruta y nombre del archivo de origen y "nombreDestino.txt" por la ruta y nombre del archivo de destino. Esta función moverá el archivo de origen al destino.
+
+Esperamos que este manual de usuario te sea de utilidad para utilizar la librería FileEasy y gestionar tus archivos de manera eficiente. Si tienes alguna pregunta o necesitas ayuda adicional, no dudes en contactarnos.
