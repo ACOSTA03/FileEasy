@@ -55,7 +55,7 @@ archivo.eliminarArchivo();
 ```
 Estos son ejemplos simples para las funciones disponibles en FileEasy. Puedes adaptarlos a tus necesidades específicas.
 
-##Documentación Javadoc
+## Documentación Javadoc
 
 La documentación Javadoc detallada de FileEasy se encuentra disponible en línea. Puedes acceder a ella para obtener información detallada sobre cómo utilizar la biblioteca y sus métodos. A continuación, se proporciona el enlace:
 
